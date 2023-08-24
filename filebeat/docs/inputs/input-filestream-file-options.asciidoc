@@ -514,6 +514,7 @@ When reading from rotating files make sure the paths configuration includes
 both the active file and all rotated files.
 
 By default, {beatname_uc} is able to track files correctly in the following strategies:
+
 * create: new active file with a unique name is created on rotation
 * rename: rotated files are renamed
 
